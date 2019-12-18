@@ -1,0 +1,7 @@
+export const USER_SETTING_MODAL = 'USER_SETTING_MODAL';
+export const MONSTER_MODAL = 'MONSTER_MODAL';
+export const HERO_MODAL = 'HERO_MODAL';
+export const HERO_SELECTION = 'HERO_SELECTION'
+
+export const SHOW_MODAL = 'SHOW_MODAL';
+export const HIDE_MODAL = 'HIDE_MODAL';
