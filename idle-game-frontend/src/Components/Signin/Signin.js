@@ -56,7 +56,7 @@ class Signin extends Component {
                     this.props.history.push('/')
                 })
                 .catch(error => {
-                    console.log(error)
+                    console.log(error, 'line 59')
                     this.props.handleErrorSignup(error.response.data.message)
                     this.setState({
                         submitted: false
