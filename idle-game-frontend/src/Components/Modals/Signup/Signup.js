@@ -94,7 +94,7 @@ class Signup extends Component {
                 })
                 .catch(error => {
                     console.log(error, 'line 96 signup')
-                    this.props.handleErrorSignup(error)
+                    this.props.handleErrorSignup(error.response.data.message)
                     this.setState({
                         submitted: false
                     })
